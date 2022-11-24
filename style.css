@@ -2,7 +2,10 @@ body {
     height: auto;
     width: auto;
     background-color: #17181A;
+    font-family: 'Rubik', sans-serif;
+}
+
+div.a {
+	text-align: center;
     font-display: #FFFFFF;
-    font-family: 'Source Sans Pro', sans-serif;
-    text-align: center;
 }
