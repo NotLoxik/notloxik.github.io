@@ -7,5 +7,6 @@ body {
 
 div.a {
 	text-align: center;
+    text-align-last: center;
     font-display: #FFFFFF;
 }
