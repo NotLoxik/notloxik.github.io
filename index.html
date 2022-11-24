@@ -1,60 +1,14 @@
-<title id="page-title"></title>
-<!-- Display the countdown timer in an element -->
-<p id="demo">
-    <h2>Přijimačky 2023</h2>
-</p>
-<script>
-// Set the date we're counting down to
-var countDownDate = new Date("Apr 13, 2023 00:00:01").getTime();
-
-// Update the count down every 1 second
-var x = setInterval(function() {
-
-  // Get today's date and time
-  var now = new Date().getTime();
-
-  // Find the distance between now and the count down date
-  var distance = countDownDate - now;
-
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-  // Display the result in the element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-  document.getElementById("page-title").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s - Přijimačky"; 
-
-  // If the count down is finished, write some text
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo").innerHTML = "Dnes je ten den";
-  }
-}, 1000);
-</script>
-
-<style>
-    *{
-        padding:5px;
-        margin:0;
-        font-family: sans-serif;
-    }
-    body{
-        background: #34495e;
-        flex-direction: column-reverse;
-        display: flex;
-        place-items: center;
-        justify-content: center;
-        min-height: 100vh;
-    }
-    h2{
-        color: darkgray;
-        text-shadow: 0px 0px 3px #000000;
-    }
-    p{
-        color: white;
-        font-size: 4vh;
-        text-shadow: 0px 0px 5px #000000;
-    }
-</style>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>NotLoxik</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    Ahoj
+</body>
+</html>>
