@@ -1,12 +1,22 @@
-body {
-    height: auto;
-    width: auto;
-    background-color: #17181A;
+*{
+    padding:5px;
+    margin:0;
     font-family: 'Rubik', sans-serif;
 }
-
-div.a {
-	text-align: center;
-    text-align-last: center;
+body{
+    background-color: #17181A;
+    flex-direction: column-reverse;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+h1{
     color: #FFFFFF;
+    text-shadow: 0px 0px 3px #000000;
+}
+p{
+    color: #c5c5c5;
+    font-size: 4vh;
+    text-shadow: 0px 0px 5px #000000;
 }
