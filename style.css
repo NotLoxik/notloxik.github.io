@@ -1,18 +1,20 @@
 /* apply to all */
 *{
-    padding:5px;
-    margin:0;
+    padding:0px;
+    margin:0px;
     font-family: 'Rubik', sans-serif;
 }
-/* body */
-body{
+
+/* landing screen */
+div.landing{
     background-color: #17181A;
-    flex-direction: column-reverse;
+    flex-direction: column;
     display: flex;
     place-items: center;
     justify-content: center;
-    min-height: 97vh;
+    min-height: 100vh;
 }
+
 /* main text */
 h1{
     color: #FFFFFF;
