@@ -1,0 +1,18 @@
+
+*{
+    padding:0px;
+    margin:0px;
+    font-family: 'Rubik', sans-serif;
+}
+
+h1{
+    color: #FFFFFF;
+    text-shadow: 0px 0px 9px #000000;
+    font-size: 9vh
+}
+
+p{
+    color: #c5c5c5;
+    font-size: 3vh;
+    text-shadow: 0px 0px 3px #000000;
+}
