@@ -1,5 +1,5 @@
-div.landing{
-    background-image: url("src/assets/img/banner-bg.png");
+div.skills{
+    background-color: #17181A;
     flex-direction: column;
     display: flex;
     place-items: center;
