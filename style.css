@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito+Sans);
+@import url(https://fonts.googleapis.com/css?family=Rubik);
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    background-color: #000000;
+    color: #fff;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    line-height: 1.5;
+    color: #fff;
+    font-family: 'Nunito Sans', sans-serif
+}
+
+.header {
+    z-index: 1;
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    font-family: 'Rubik', sans-serif;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    margin: 0 auto;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+.header .site-title {
+    font-size: 35px;
+    display: block;
+    line-height: 1;
+    color: #fff;
+}
+
+@media only screen and (min-width:550px) {
+    .header .site-title {
+        margin: 0;
+        font-size: 100px
+    }
+}
+
+.header .site-description {
+    font-size: 20px;
+    display: block;
+    line-height: 1;
+    color: #ffffff;
+    margin-top: 10px
+}
+
+@media only screen and (min-width:550px) {
+    .header .site-description {
+        font-size: 40px
+    }
+}
