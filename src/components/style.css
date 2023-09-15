@@ -1,5 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito+Sans);
-@import url(https://fonts.googleapis.com/css?family=Rubik);
+@font-face {
+    font-family: 'BenderBold';
+    src: url('../assets/font/Bender-Bold.otf'); /* IE9 Compat Modes */
+  }
 
 ::-webkit-scrollbar {
     display: none;
@@ -24,7 +26,7 @@ body {
     font-size: 100%;
     line-height: 1.5;
     color: #fff;
-    font-family: 'Nunito Sans', sans-serif
+    font-family: 'BenderBold', sans-serif
 }
 
 .header {
@@ -32,7 +34,7 @@ body {
     text-align: center;
     color: #ffffff;
     position: absolute;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'BenderBold', sans-serif;
     width: 80%;
     top: 50%;
     left: 50%;
