@@ -1,72 +1,96 @@
-@font-face {
-    font-family: 'BenderBold';
-    src: url('../assets/font/Bender-Bold.otf'); /* IE9 Compat Modes */
-  }
-
-::-webkit-scrollbar {
-    display: none;
-}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
 html {
-    line-height: 1.15;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    background-color: #000000;
-    color: #fff;
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  background-color: #000;
+  color: #fff;
 
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    font-size: 100%;
-    line-height: 1.5;
-    color: #fff;
-    font-family: 'BenderBold', sans-serif
+header #particles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
 }
 
 .header {
-    z-index: 1;
-    text-align: center;
-    color: #ffffff;
-    position: absolute;
-    font-family: 'BenderBold', sans-serif;
-    width: 80%;
-    top: 50%;
-    left: 50%;
-    margin: 0 auto;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%)
+  z-index: 1;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  margin: 0 auto;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .header .site-title {
-    font-size: 35px;
-    display: block;
-    line-height: 1;
-    color: #fff;
+  font-size: 35px;
+  display: block;
+  line-height: 1;
+  color: #fff;
 }
 
-@media only screen and (min-width:550px) {
-    .header .site-title {
-        margin: 0;
-        font-size: 100px
-    }
+@media only screen and (min-width: 550px) {
+  .header .site-title {
+    margin: 0;
+    font-size: 100px;
+  }
 }
 
 .header .site-description {
-    font-size: 20px;
-    display: block;
-    line-height: 1;
-    color: #ffffff;
-    margin-top: 10px
+  font-size: 20px;
+  display: block;
+  line-height: 1;
+  color: #ffffff;
+  margin-top: 10px;
 }
 
-@media only screen and (min-width:550px) {
-    .header .site-description {
-        font-size: 40px
-    }
+@media only screen and (min-width: 550px) {
+  .header .site-description {
+    font-size: 40px;
+  }
+}
+
+.header .site-links a {
+  font-size: 20px;
+  display: inline;
+  line-height: 1.75;
+  text-decoration: none;
+  font-weight: lighter;
+  color: #fff;
+}
+
+.header .site-links a:hover {
+  font-size: 20px;
+  display: inline;
+  line-height: 1.75;
+  text-decoration: none;
+  font-weight: lighter;
+  color: #fee75c;
+}
+
+@media only screen and (min-width: 550px) {
+  .header .site-links a {
+    font-size: 35px;
+  }
+  .header .site-links a:hover {
+    font-size: 35px;
+    display: inline;
+    line-height: 1.75;
+    text-decoration: none;
+    font-weight: lighter;
+    color: #fee75c;
+  }
 }
