@@ -4,7 +4,7 @@ html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  background-color: #000;
+  background-color: #121212;
   color: #fff;
 
   -webkit-user-select: none;
@@ -24,7 +24,7 @@ header #particles {
 .header {
   z-index: 1;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
   position: absolute;
   font-family: "Poppins", sans-serif;
   top: 50%;
